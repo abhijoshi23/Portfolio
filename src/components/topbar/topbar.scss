@@ -98,10 +98,13 @@
         .Wrapper{
 
             .left{
-
+                .logo{
+                text-align: left;
+                font-size: 10px;
+                }
                 .itemContainer{
-
-                    display: none;
+                    text-align: left;
+                    font-size: 20px;
                 }
             }
 

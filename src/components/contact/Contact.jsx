@@ -14,7 +14,7 @@ export default function Contact() {
         <img src="assets/downarrow.png" alt=""/>
       </div>
       <div className="right">
-        <h2> Contact Me</h2>
+        <h2> Contact Me </h2>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Email"/>
           <textarea placeholder="message"></textarea>

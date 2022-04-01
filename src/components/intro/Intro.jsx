@@ -12,7 +12,7 @@ export default function Intro() {
       showCursor: true, 
       backDelay:  2000,
       backSpeed: 60,
-      strings: ['Developer', 'UI-UX Designer', 'Editor' ]});
+      strings: ['Developer 🧑🏼‍💻', 'UI-UX Designer 👨‍💻', 'Editor ✍️' ]});
   },[])
   return (
     <div className="intro" id="intro">
@@ -23,7 +23,7 @@ export default function Intro() {
        </div>
       <div className="right">
         <div className="wrapper">
-          <h2> Hi there, I'm </h2>
+          <h2> Hi there 👋, I'm </h2>
           <h1> Abhi Joshi </h1>
           <h3>Web <span ref={textRef}></span></h3>
         </div>

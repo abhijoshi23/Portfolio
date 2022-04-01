@@ -87,15 +87,31 @@
     .intro{
         flex-direction: column;
     .left{
-        width: 0%;
-          max-width: 0%;
-        display: none;
+        width: 100%;
+          max-width: 100%;
+          height: 70%;
+          top: 10%;
+          .imgContainer{
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            right: 0%;
+            align-items: flex-end;
+           
+            img{
+                border-radius: 50%;
+                margin-top: 10px;
+                width: 100%;
+                height: 100%;
+            }
+          }
+        
     }
     .right{
-        flex: 1;
+        flex: 0.5;
         width: 100%;
         max-width: 100%;
-        height: 100%;
+        
         top: 0%;
         bottom: 0%;
 
