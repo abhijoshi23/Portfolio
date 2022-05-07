@@ -1,8 +1,6 @@
 import "./topbar.scss"
 import {Mail} from "@material-ui/icons"
 
-
-
 export default function Topbar({menuOpen,setmenuOpen}) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>

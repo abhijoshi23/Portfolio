@@ -3,8 +3,11 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Carousel from 'react-bootstrap/Carousel'
 import SkillBar from 'react-skillbars';
 const skills = [
-  {type: "Java", level: 85},
-  {type: "Javascript", level: 75},
+  {type: "HTML", level: 100},
+  {type: "CSS", level: 100},
+  {type: "Javascript", level: 85},
+  {type: "React", level: 75},
+  {type: "NodeJS", level: 80},
 ];
 
 export default function AboutMe() {
@@ -31,15 +34,13 @@ export default function AboutMe() {
   <div className="carousel-1"><h3>Skills</h3> </div>
   <div className="content">
     <SkillBar skills={skills}/>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
       </div>
   </Carousel.Item>
   <Carousel.Item>
   <div className="carousel-1"><h3>Goals</h3></div> 
   <div className="content">
       <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>   
+      <p> To create and develop required things to the best of my potential for any organizations growth.</p>   
       </div>
   </Carousel.Item>
 </Carousel>

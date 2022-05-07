@@ -1,5 +1,5 @@
 .aboutme{
-    background-color: white;
+    background-color: #fefae0;
 
     .container{
 
@@ -20,7 +20,7 @@
         }
 
         .carasouel{
-            background-color:white;
+            background-color:#fefae0;
             width:"100%";
             height:"60vh";
 
@@ -29,7 +29,6 @@
                 left:"20%";
                 width:"60%";
                 height:"60vh";
-                backgroundColor:"lightgrey";
             }
 
             .carousel-1{
@@ -37,6 +36,8 @@
             }
             .content{
                 text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
             }
         }
     }   
