@@ -50,6 +50,7 @@ const[Quotes,setquotes]=useState([]);
       <div className="right">
         <h2> Contact Me </h2>
         <form id="contact-form" method="POST">
+          <div className="form">
           <div className="form-group">
               <label htmlFor="name">Name</label>
               <input type="text" className="form-control" id="name"  />
@@ -63,6 +64,7 @@ const[Quotes,setquotes]=useState([]);
               <textarea className="form-control" rows="5" id="message" />
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
+          </div>
         </form>
         </div>
       </div>
