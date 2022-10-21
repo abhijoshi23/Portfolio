@@ -73,14 +73,14 @@
     .right{
         display: flex;
         justify-content: center;
+        height: 100%;
         width: 100%;
-
         h2{
             font-size: 50;
         }
             .form{
-                height: 70%;
-                width: 90%;
+                height: 100%;
+                width: 100%;
             }
         
     }
