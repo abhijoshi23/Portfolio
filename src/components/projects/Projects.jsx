@@ -69,14 +69,11 @@ export default function Projects() {
     </Card>
     </Row>
     </Col>
-    
+
     </Container>
+    </div>
     <br></br>
     <h4 className="git"> I keep updating my work on Github<a href="https://github.com/abhijoshi23"><AiFillGithub/></a></h4>
-
-   
-        </div>
-
     </div>
   )
 }

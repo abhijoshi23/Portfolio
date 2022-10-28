@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro"
 import AboutMe from "./components/aboutme/aboutme"
-import Contact from "./components/contact/Contact"
+import Connect from "./components/connect/Connect"
 import Projects from "./components/projects/Projects"
 import Menu from "./components/menu/Menu"
 import React, { useState } from "react";
@@ -18,7 +18,7 @@ function App() {
       <Intro/>
       <AboutMe/>
       <Projects/>
-      <Contact/>
+      <Connect/>
     </div>
     </div>
     
