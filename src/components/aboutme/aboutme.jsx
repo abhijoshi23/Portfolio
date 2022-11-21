@@ -15,7 +15,7 @@ export default function AboutMe() {
     <div className="aboutme" id="aboutme" >
       <div className="container" >
       <h1>About Me </h1>
-      <p className="para1"> I am a Software developer 👨🏻‍💻 based in,Toronto,ON 🌆. I always had interest in programming and web applications development
+      <p className="para1"> I am a Software Developer 👨🏻‍💻 based in,Toronto,ON 🌆. I always had interest in Programming and Software Development
        since my high school days. My goal 🎯 is to develop things that helps in making world a better place. 
       </p>
       <p className="para2"> Currently focused on learning and trying different things in development everyday
