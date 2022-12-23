@@ -4,6 +4,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 
+import Feedback from "feeder-react-feedback";
 function App()  {
 
 
@@ -34,7 +35,10 @@ function App()  {
         onMouseOut={({target})=>target.style.color="black"}
          /></a>
         </div>
+        {/* <div className="feedback">
+        <Feedback/></div> */}
         </div>
+        
       </div>
     );
   }

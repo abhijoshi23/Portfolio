@@ -8,7 +8,7 @@ export default function Topbar({menuOpen,setmenuOpen}) {
         <div className="left">
           <a href="#intro" className="logo">Abhi Joshi</a>
           <div className="itemContainer">
-          <a href="mailto:jabhi381@gmail.com" style={{color:"black",textDecoration:"none"}}><Mail/>
+          <a href="mailto:jabhi381@gmail.com" style={{color:"#B3C2F2",textDecoration:"none"}}><Mail/>
             <span>  jabhi381@gmail.com</span></a>
           
           </div>
