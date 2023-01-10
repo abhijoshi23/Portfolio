@@ -21,8 +21,6 @@ function App() {
       <Connect/>
     </div>
     </div>
-    
-    
   );
 }
 
